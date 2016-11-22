@@ -25,7 +25,6 @@
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
-        android:layout_marginTop="11dp"
         android:id="@+id/LlamarTelefono" />
 
     <Button
@@ -35,7 +34,6 @@
         android:layout_below="@+id/LlamarTelefono"
         android:layout_alignLeft="@+id/LlamarTelefono"
         android:layout_alignStart="@+id/LlamarTelefono"
-        android:layout_marginTop="17dp"
         android:id="@+id/Maps" />
 
     <Button
@@ -45,7 +43,6 @@
         android:layout_below="@+id/Maps"
         android:layout_alignLeft="@+id/Maps"
         android:layout_alignStart="@+id/Maps"
-        android:layout_marginTop="13dp"
         android:id="@+id/Foto" />
 
     <Button
@@ -55,7 +52,30 @@
         android:layout_below="@+id/Foto"
         android:layout_alignLeft="@+id/Foto"
         android:layout_alignStart="@+id/Foto"
-        android:layout_marginTop="14dp"
         android:id="@+id/Correo" />
+
+    <Button
+        android:text="búsqueda web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/busca" />
+
+    <Button
+        android:text="Dialer teléfono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialer" />
+
+    <Button
+        android:text="street view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/street" />
+
+    <Button
+        android:text="Compartir con..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/compartir" />
 
 </LinearLayout>

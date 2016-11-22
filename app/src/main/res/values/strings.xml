@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intents</string>
+    <string name="share">Compartir con...</string>
 </resources>
