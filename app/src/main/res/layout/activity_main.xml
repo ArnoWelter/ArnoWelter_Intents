@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="listarecycler.example.net.intents.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AbrirWeb"
+        android:text="abrir página web" />
+
+    <Button
+        android:text="llamada de teléfono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="11dp"
+        android:id="@+id/LlamarTelefono" />
+
+    <Button
+        android:text="google maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LlamarTelefono"
+        android:layout_alignLeft="@+id/LlamarTelefono"
+        android:layout_alignStart="@+id/LlamarTelefono"
+        android:layout_marginTop="17dp"
+        android:id="@+id/Maps" />
+
+    <Button
+        android:text="hacer foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Maps"
+        android:layout_alignLeft="@+id/Maps"
+        android:layout_alignStart="@+id/Maps"
+        android:layout_marginTop="13dp"
+        android:id="@+id/Foto" />
+
+    <Button
+        android:text="mandar correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Foto"
+        android:layout_alignLeft="@+id/Foto"
+        android:layout_alignStart="@+id/Foto"
+        android:layout_marginTop="14dp"
+        android:id="@+id/Correo" />
+
+</LinearLayout>
